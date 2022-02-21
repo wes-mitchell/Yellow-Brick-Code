@@ -1,0 +1,42 @@
+body {
+  background-color: #bada55;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+section {
+  width: 20
+}
+
+.main_content {
+  display: flex;
+}
+/* 
+img {
+  width: 100%;
+} */
+
+main {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+}
+
+.friendslist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friendslist section {
+  max-width: 200px;
+  /* margin: 1em 2em .5em .5em; */
+}
